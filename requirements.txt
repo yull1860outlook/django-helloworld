@@ -1,3 +1,4 @@
 # requirements.txt file
 Django==2.2.3
+requests-kerberos==0.12.0 
 pyodbc
