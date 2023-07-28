@@ -27,6 +27,9 @@ jobs:
           python -m venv venv
           source venv/bin/activate
       
+      - name: Install krb5
+        run: sudo apt install libkrb5-dev 
+        
       - name: Install dependencies
         run: pip install -r requirements.txt
         
